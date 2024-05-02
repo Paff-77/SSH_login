@@ -31,4 +31,4 @@ ${login_info}
 ${last_login}"
 
 # 发送通知消息
-curl -s -X POST "https://api.telegram.org/bot${token}/sendMessage" -d "chat_id=${id}&text=${message}"
+curl -s -X POST "https://api.telegram.org/bot${token}/sendMessage" -d "chat_id=${id}&text=${message}" > /dev/null 2>&1
