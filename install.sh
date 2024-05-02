@@ -8,7 +8,7 @@ id="5617916510"
 sudo mkdir -p /etc/profile.d
 
 # 下载脚本并给予执行权限
-sudo curl -sL https://raw.githubusercontent.com/vlesstop/sshlogin/main/script.sh -o /etc/profile.d/ssh_login_alert.sh
+sudo curl -sL https://raw.githubusercontent.com/Paff-77/SSH_login/main/script.sh -o /etc/profile.d/ssh_login_alert.sh
 sudo chmod +x /etc/profile.d/ssh_login_alert.sh
 
 # 将 token 和 id 写入文件以便持久保存
